@@ -16,17 +16,17 @@ elif question == "subtract":
 
 elif question == "multiply":
     multiply = int(input("Please enter the first number you wish to multiply: "))
-    multiply_two = int(input("Please enter the second number you wish to multiply: "))
+    multiply_two = int(input("Please enter the second number: "))
     total_three = multiply * multiply_two
     print(total_three)
 
 elif question == "divide":
     divide = int(input("Please enter the first number you wish to divide: "))
-    divide_two = int(input("Please enter the second number you wish to divide: "))
+    divide_two = int(input("Please enter the second number: "))
     total_four = divide / divide_two
     print(total_four)
 
 else:
-    print("Input not accepted: please pick pick either add, subtract, multiply, or divide")
+    print("Input not accepted: please pick either add, subtract, multiply, or divide")
 
 
